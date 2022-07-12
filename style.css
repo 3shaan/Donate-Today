@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+}
+
+.section-img{
+    width:100vw;
+    height: 100vh;
+    background-image:url(./images/donation13.jpg);
+    filter: blur(1px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.section-description{
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 10%;
+    width: 80%;
+    padding: 20px;
+   
+  }
+.section-head{
+    font-size: 70px;
+}
+.section-text{
+    font-size: 20px;
+    padding: 0px 300px;
+}
+.section-btn{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: coral;
+    
+}
+.btn-text{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.section2{
+    padding: 30px 300px;
+}
+.section2-title{
+    font-size: 50px;
+}
+.section2-title2{
+    font-size: 25px;
+}
+.section2-description{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section2-box{
+    height: 120px;
+    width: 150px;
+    border: 1px solid white;
+    background-color: rgba(128, 128, 128, 0.293);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.section2-donet{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section2-box2{
+    height: 120px;
+    width: 150px;
+    border: 2px solid rgb(218, 100, 10);
+    background-color: rgba(239, 15, 15, 0.293);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+.section2-input{
+    padding-top: 70px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    font-size:25px ;
+}
+.second-btn{
+    margin-left:400px;
+    margin-top: 30px;
+}
+.section3-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 250px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 40px 10px;
+    background-color: rgba(208, 192, 192, 0.338);
+}
+.box2{
+    background-color: rgb(168, 117, 135);
+}
+.box3{
+    background-color: rgba(155, 90, 43, 0.356);
+}
+.s3-text{
+    font-size: 20px
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 150px;
+    margin-top: 100px;
+    padding: 30px;
+}
+.footer-title{
+    color: red;
+    font-style: italic;
+}
