@@ -10,8 +10,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
-    
 }
 .section-description{
     text-align: center;
@@ -21,13 +19,12 @@ body{
     left: 10%;
     width: 80%;
     padding: 20px;
-   
   }
 .section-head{
     font-size: 70px;
 }
 .section-text{
-    font-size: 20px;
+    font-size: 25px;
     padding: 0px 300px;
 }
 .section-btn{
@@ -36,7 +33,6 @@ body{
     border-radius: 10px;
     border: 1px solid gray;
     background-color: coral;
-    
 }
 .btn-text{
     font-size: 20px;
@@ -51,6 +47,7 @@ body{
 }
 .section2-title2{
     font-size: 25px;
+    padding: 0 200px;
 }
 .section2-description{
     text-align: center;
@@ -113,6 +110,72 @@ body{
 }
 .s3-text{
     font-size: 20px
+}
+.section4{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+   
+}
+.section4-img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.section4-img{
+    margin-top: 80px;
+    margin-right: 200px;
+    
+}
+.section4-description button{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: coral;
+}
+.section4-description a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.section4-description{
+    padding: 80px 200px;
+}
+.section4-text{
+    font-size: 25px;
+}
+
+.section5{
+    text-align: center;
+}
+.section5-box{
+    border:none;
+    height: 200px;
+    width: 55%;
+    margin: 10px 300px;
+    background-color: rgba(255, 68, 0, 0.223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.section5-input{
+    width: 300px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.496);
+    color: white;
+    font-size: 20px;
+    margin-right: -5px;
+    border: none;
+   
+}
+.section5-btn{
+    width: 150px;
+    height: 42px;
+   border: none;
+    background-color: coral;
+    
 }
 footer{
     background-color: black;
